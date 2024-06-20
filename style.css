@@ -1,0 +1,24 @@
+/* Add styles here */
+/* /* Custom styles */
+.menu-icon {
+    transition: transform 0.3s ease;
+  }
+  .menu-icon.open .bar1 {
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  .menu-icon.open .bar2 {
+    opacity: 0;
+  }
+  .menu-icon.open .bar3 {
+    transform: rotate(45deg) translate(-6px, -6px);
+  }
+  #form-modal .bg-white {
+    width: 80%; /* Adjust the percentage as needed */
+    height: 80vh; /* Adjust the value as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  #close-button {
+      top: 10px; /* Adjust as needed */
+      right: 10px; /* Adjust as needed */
+      cursor: pointer;
+  } 
